@@ -1,0 +1,99 @@
+
+.skillSection {
+    max-width:1200px;
+    height:230rem;
+    position: relative;
+    background-image: linear-gradient(to right top, #316ac0, #534784, #482b4e, #2c1824, #000000);
+}
+.skillSection h2.introHeading span {
+  padding:2rem 5rem;
+  border-bottom:.5rem solid #fb931e;
+}
+.skillSection h2.introHeading {
+  font-size:4rem;
+  font-family:var(--fReg);
+  text-align:center;
+  margin-bottom:6rem;
+  color:#fb931e;
+  transition:all .5s;
+}
+.skillSection .mainDiv {
+  width:100rem;
+  margin:auto;
+  padding-top:5rem ;
+  display:grid;
+  grid-template-rows: repeat(4,min-height(35rem)) ;
+  grid-template-columns: repeat(2,40rem);
+  justify-content: space-around;
+  row-gap:7rem;
+}
+.skillSection .mainDiv .card{
+   font-family: var(--fReg);
+   position: relative;
+   border-radius: 1rem;
+   border:.15rem solid;
+   border-top:.5rem solid;
+   border-color:#00ccff;
+   transition:all .4s;
+   background-image: linear-gradient(to right top,#626a6c,#333839, #000000);
+   box-shadow: -.1rem .1rem 2rem .2rem #969d9f;
+  }
+  .skillSection .mainDiv .card .cardIcon {
+    width:10rem;
+    height:10rem;
+    z-index:9999;
+    border:.5rem solid #00ccff;
+    border-radius:50%;
+    background:#232829;
+    position:absolute;
+    top:-5rem;
+    left:15rem;
+    transition:all 1s;
+    display:grid;
+    place-items:center;
+  }
+  
+  .skillSection .mainDiv .card .cardIcon i {
+    color:#0ec4f1;
+    font-size:5.5rem;
+  }
+  
+ .skillSection .mainDiv .card h2 {
+   margin-top:5rem;
+   padding:1rem;
+   text-align:center;
+   font-family:var(--fReg);
+   font-size:4rem;
+   color:#00ccff;
+ } 
+ .skillSection .mainDiv .card p {
+   font-family:var(--fReg);
+   font-size: 2.5rem;
+   padding:1rem 3rem;
+   color:#e0e0e0;
+   -webkit-hyphens: auto;
+   -ms-hyphens: auto;
+   hyphens: auto;
+ }
+/* Hover Effects */
+.skillSection h2.introHeading:hover {
+  color:#00ccff;
+}
+.skillSection h2.introHeading:hover  span {
+  border-color:#00ccff ;
+}
+ .skillSection .mainDiv .card:hover{
+  box-shadow:none;
+  border-color:#fb931e;
+ }
+.skillSection .mainDiv .card:hover .cardIcon {
+ 
+  box-shadow:-.1rem .1rem 2rem .5rem #969d9f,inset -.1rem .1rem 2rem .3rem #444444;
+  border-color:#fb931e;
+}
+.skillSection .mainDiv .card:hover  .cardIcon > i {
+  color:#fb931e;
+}
+.skillSection .mainDiv .card:hover  h2 {
+  color:#fb931e;
+}

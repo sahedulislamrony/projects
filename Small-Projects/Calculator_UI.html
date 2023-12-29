@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="description" content="This is a UI design for simple calculator" />
+<title>Calculator UI Design | By Sahedul Islam</title>
+<style type="text/css">
+.calculator {
+          width:300px;
+          padding:20px;
+          
+        
+}
+.container{
+  width:340px;
+  border:2px solid #cc5b03;
+  border-radius:5px;
+  margin: auto;
+  background:#ffffff;
+
+  
+}
+.screen {
+    width:99%;
+    height:150px;
+    background: white;
+    border-radius:10px;
+    border:2px solid #ffc300;
+    box-shadow:inset 3px 2px 20px #c9fe99;
+   
+}
+.All_btn {
+      width:100%;
+      height:321px;
+      margin-top:20px;
+      display:block;
+     /* border:3px solid gray;*/
+      border-radius:15px;
+      
+}
+.Number {
+      width:300px;
+      float:left;
+      position:relative;
+      
+
+}
+.Math {
+    width:100px;
+    float:right;
+    position:relative;
+
+}
+.button_sign  {
+   width:60px;
+   height:20px;
+   text-align:center;
+   background:;
+   padding:15px;
+   border-radius:10px;
+   font-size:large;
+   font-weight:bolder;
+   position:absolute;
+   border:2px solid blue;
+}
+.Number_btn {
+            width:60px;
+            height:50px;
+            border-radius:10px;
+            background:;
+            text-align:center;
+            padding-top:25px;
+            font-size:larger;
+            font-weight:bolder;
+            position:absolute;
+            border:2px solid red;
+}
+.btn9 ,.btn8 ,.btn7 {
+   top:0px;
+   
+   
+}
+.btn4, .btn5, .btn6{
+    top:80px;
+  
+}
+.btn1 , .btn2 , .btn3{
+      top:160px;
+   
+}
+.btn0,.btnD,.btnE{
+     top:242px;
+     
+}
+
+
+.btn0 ,.btn1,.btn4,.btn7{
+     left:0px;
+}
+.btnD,.btn2 ,.btn5,.btn8{
+    left:65px;
+}
+.btnE,.btn3,.btn6,.btn9{
+     left:130px;
+}
+.btn8,.btn6{
+  border-color:#faae1b;
+  color:#faae1b;
+  
+}
+.btn7,.btn5,.btn3{
+  border-color:#7832fb;
+  color:#7832fb;
+}
+.btn4,.btn2,.btnE{
+border-color:#29ea55;
+color:#29ea55;
+  
+}
+.btn1,.btnD{
+border-color:#eb62fd;
+color:#eb62fd;
+  
+}
+.btn9,.btn0{
+border-color:#70cd01;
+color:#70cd01;
+}
+
+
+
+.clean{
+ top:0px;
+ right:0px;
+ color:#ff481f;
+ border-color:#ff5c00;
+}
+.pl{
+top:220px;
+height:66px;
+right:0px;
+border-color:#35cd00;
+color:#35cd00;
+
+}
+.mns{
+top:165px;
+right:0px;
+border-color:#cb5c04;
+color:#cb5c04;
+}
+.mul{
+top:110px;
+right:0px;
+border-color:#35cd00;
+color:#35cd00;
+}
+.div{
+  top:55px;
+  right:0px;
+  border-color:#cb5c04;
+color:#cb5c04;
+
+}
+.pl span {
+
+line-height:70px;
+}
+</style>
+</head>
+<body>
+<section>
+  <div class="container">
+<div class="calculator">
+
+<div class="screen"></div>
+
+<div class="All_btn">
+      <div class="Number">
+      <div class="Number_btn btn1">
+      <span>1</span>
+      </div>
+      <div class="Number_btn btn2" >
+      <span>2</span>
+      </div>
+      <div class="Number_btn btn3" >
+      <span>3</span>
+      </div>
+      <div class="Number_btn btn4" >
+      <span>4</span>
+      </div>
+      <div class="Number_btn btn5" >
+      <span>5</span>
+      </div>
+      <div class="Number_btn btn6" >
+      <span>6</span>
+      </div>
+      <div class="Number_btn btn7" >
+      <span>7</span>
+      </div>
+      <div class="Number_btn btn8" >
+      <span>8</span>
+      </div>
+      <div class="Number_btn btn9" >
+      <span>9</span>
+      </div>
+      <div class="Number_btn btn0" >
+      <span>0</span>
+      </div>
+      <div class="Number_btn btnD" >
+      <span><b>.</b></span>
+      </div> 
+      <div class="Number_btn btnE" >
+      <span>=</span>
+      </div>
+      </div>  
+         <div class="Math">
+           <div class="button_sign clean">
+               <span>Clean</span>
+            </div>
+         <div class="button_sign pl">
+        <center> <span>+</span></center>
+         </div>
+         <div class="button_sign mns">
+         <span>-</span>
+         </div>
+         <div class="button_sign mul">
+         <span>×</span>
+         </div>
+         <div class="button_sign div">
+         <span>÷</span>
+         </div>
+    </div>
+</div>
+</div>
+</div>
+</section>
+</body>
+</html>

@@ -1,0 +1,141 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family: 'Red Hat Display', sans-serif;
+}
+html {
+  font-size:62.5%;
+  /* 1rem = 10px */
+}
+.main {
+  width:100vw;
+  height:90vh;
+  background-color:hsl(225, 100%, 94%);
+  background-image:url('images/pattern-background-mobile.svg');
+  background-size:cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  display:grid;
+  place-items:center;
+}
+.main .card {
+  width:30rem;
+  background:#fff;
+  border-radius:2rem;
+  overflow:hidden;
+}
+.main .card .img img {
+  width:100%;
+}
+.main .card h1 {
+  font-weight:900;
+  text-align:center;
+  line-height:7rem;  
+  color: hsl(223, 47%, 23%);
+  font-family: 'Red Hat Display', sans-serif;
+}
+.main .card p {
+  
+  font-size:1.6rem;
+  font-weight:500;
+  line-height:2.4rem;
+  text-align:center;
+  color: hsl(224, 23%, 55%);
+}
+.main .card .price {
+  width:85%;
+  height:6rem;
+  margin:auto;
+  margin-top:2rem;
+  padding:1rem;
+  display:grid;
+  grid-template:100%/1fr 3fr 2fr;
+  border-radius:1rem;
+  background:hsl(225, 100%, 98%);
+}
+.main .card .price .musicIcon {
+  display:grid;
+  place-items: center;
+}
+.main .card .price img {
+  width:4rem;
+  height:4rem;
+  margin-left:.5rem;
+}
+.main .card .price .priceText {
+  padding-left:1.5rem;
+}
+
+.main .card .price .priceText h3{
+  font-weight:900;
+  line-height:2rem;
+}
+.main .card .price .priceText span {
+  font-size:1.2rem;
+  padding-top:.5rem;
+  font-weight:700;
+  color: hsl(224, 23%, 55%);
+}
+.main .card .price .btn {
+  display:grid;
+  place-items: center;
+}
+.main .card .price .btn a {
+  font-weight:900;
+  font-size:1.2rem;
+  text-decoration: underline;
+}
+.main .card .buttons {
+  width:90%;
+  margin:auto;
+  padding-top:2rem;
+}
+.main .card .buttons a {
+  width:100%;
+  display:block;
+  padding:1rem 0px;
+  margin-bottom:1rem;
+  text-align:center;
+  font-weight:700;
+  font-size:1.6rem;
+  text-decoration:none;
+  border-radius:1rem;
+  color: hsl(224, 23%, 55%);
+}
+.main .card .buttons a:first-child {
+  background:hsl(245, 75%, 52%);
+  color:hsl(225, 100%, 98%);
+  box-shadow:0px 20px 16px hsl(225, 100%, 92%);
+}
+ .attribution { 
+   font-size: 11px;
+   font-weight:700;
+   text-align: center;
+   width:100vw;
+   padding:20px 0px;
+   background:hsl(223, 47%, 23%);
+   color:hsl(225, 100%, 94%);
+ }
+ .attribution a { 
+   color:#ff9500;
+   text-decoration:none;
+ }
+ 
+/*--------- Mouse Event | hover ---------*/
+
+.main .card .price .btn a:hover {
+  text-decoration:none;
+}
+.main .card .buttons a:first-child:hover {
+  background:hsl(245, 75%, 40%);
+}
+.main .card .buttons a:last-child:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+@media  (min-width:1400px){
+  .main{
+  background-image:url('images/pattern-background-desktop.svg');
+  }
+}

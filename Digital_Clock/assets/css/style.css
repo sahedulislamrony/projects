@@ -1,0 +1,87 @@
+html {
+  font-size: 62.5%;
+  /* for 1rem = 10px */
+}
+@font-face {
+  font-family: digital;
+  src: url('font.ttf') ;
+}
+body {
+  background: hsl(223, 47%, 23%);
+}
+section.wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: transparent;
+  display: grid;
+  place-items: center;
+}
+section.wrapper > section.clockBody {
+  width: 80%;
+  height: 25rem;
+  background:;
+  border: 1px solid #eaecec;
+  border-radius: 0.5rem;
+  display: grid;
+  grid-tamplate-rows: 100%;
+  grid-template-columns: 1fr 1fr 1fr;
+
+}
+section.clockBody div {
+  height: 100%;
+  display: grid;
+  place-items: center;
+
+  font-family: digital;
+  font-size: 8rem;
+  color: #00ccff;
+  position: relative;
+}
+section.clockBody div.hours::before {
+  content: " ";
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: #00ccff;
+  position: absolute;
+  top: 48%;
+  right: -0.55rem;
+
+
+}
+section.clockBody div.hours::after {
+  content: " ";
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: #00ccff;
+  position: absolute;
+  top: 58%;
+  right: -0.55rem;
+
+
+}
+section.clockBody div.minutes::after {
+  content: " ";
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: #00ccff;
+  position: absolute;
+  top: 58%;
+  right: -0.55rem;
+
+
+}
+section.clockBody div.minutes::before {
+  content: " ";
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  background: #00ccff;
+  position: absolute;
+  top: 48%;
+  right: -0.55rem;
+
+
+}

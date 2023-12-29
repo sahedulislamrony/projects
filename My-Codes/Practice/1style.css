@@ -1,0 +1,114 @@
+body {
+        font-family: 'Galada', cursive;
+     }
+
+     .header {
+        width: ;
+        height: 60px;
+        background: black;
+        color: white;
+     }
+
+     th {
+        height: 40px
+     }
+
+     .section {
+        width: 1250px;
+        height: 60px;
+     }
+
+
+
+
+
+     .ftable {
+        border: 1px solid green;
+        width: 700px;
+        margin-top: 40px;
+        border-collapse: collapse;
+        margin-bottom: 40px;
+     }
+
+
+     .fsection {
+        width: 1250px;
+     }
+
+     .first-list {
+        float: left
+     }
+
+     .fab {
+        color: white
+     }
+
+     .fas {
+        color: green
+     }
+
+     .title {
+        padding-top: 17px
+     }
+
+     .first-icon {
+        background: red;
+        float: left;
+     }
+
+     .second-icon {
+        background: gray;
+        float: right;
+     }
+
+     .icon {
+        width: 60px;
+        height: 60px;
+     }
+
+     .second-table {
+        width: 1250px;
+        border-collapse: collapse;
+     }
+
+     .footer {
+        width: 1250px;
+        height: 260px;
+        background: black;
+        color: white;
+        margin-top: 45px;
+     }
+
+     .span {
+        width: 500px;
+        float: left;
+        height: 100%;
+        padding: 20px;
+     }
+
+     .icons {
+        width: 350px;
+        float: left;
+        height: 100%;
+
+     }
+
+     .contact {
+        padding-top: 2px;
+        padding-left: 20px;
+        font-size: 30px;
+     }
+
+     .content {
+        float: right;
+        height: 100%;
+        width: 320px;
+     }
+
+     .Nanu {
+        background: gray;
+        color: white;
+        width: 1250px;
+        height: 30px;
+
+     }

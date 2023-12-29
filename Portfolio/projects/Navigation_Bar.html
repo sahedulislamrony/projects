@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=1170px">
+ 		 <title>Navigation Bar Design |By Sahedul Islam | Non responsive</title>
+  <!-- HTML -->
+  <!-- Place your kit's code here -->
+  <script src="https://kit.fontawesome.com/d07e2b13f5.js" crossorigin="anonymous"></script>
+  <!-- Bootstrap -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.3.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.2/dist/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Galada&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.2/dist/css/bootstrap.min.css">
+	<style type="text/css">
+/*----------Default-------------*/
+*{margin:0;padding:0}
+body{width:1170px;}
+img{width:100%;}
+/*----------Default-------------*/
+
+/*------------- Main Menu Design Start ------------ */
+.main_menu{
+  list-style:none;
+  float:right;
+  
+}
+.F_li{
+  display:inline-grid;
+  text-decoration:none;
+  font-family:'Galada', cursive;
+  
+}
+.a_main_menu{
+  text-decoration:none;
+  color:orange;
+  padding:20px 50px;
+transition:1s;
+  
+}
+.logo{
+  width:160px;
+  float:left;
+  overflow:hidden;
+  height:98px;
+ font-size:70px;
+ padding-left:30px;
+ color:orange;
+}
+.nav{
+  float:right;
+  margin-top:31px;
+  margin-right:9px;
+  
+}
+.main_nav{
+  width:100%;
+  height:98px;
+  background:#f1f1f1;
+  border-bottom:3px solid orange;
+}
+/*------------- Main Menu Design End ------------ */
+
+/*------------- Sub Menu Design Start ------------ */
+.sub_menu_ul li{
+    transition:1s;
+    background:gray;
+    }
+.sub_menu_ul{
+    list-style:none;
+    position:relative;
+    background:gray;
+    top:2px;
+    left:-20px;
+    transform:scaleY(0);height:0;
+    transform-origin:top;
+    transition:0.5s;
+}
+.a_sub_menu{
+     text-decoration:none;
+     color:orange;
+     padding:10px 90px 10px 10px ;
+     transition:1s;
+     overflow:hidden;
+     display:table;
+  
+}
+/*------------- Sub Menu Design End ------------ */
+
+/* --------- Hover Effect Start-----------*/
+.a_main_menu:hover{
+       background:black;
+       color:green;
+       text-decoration:none;
+       transform:translate(-20px);
+  
+}
+.sub_menu_ul li:hover{
+     background:white;
+  
+}
+.a_sub_menu:hover{
+     transform:translateX(20px);
+     text-decoration:none;
+  
+}
+.F_li:hover .sub_menu_ul {
+      transform:scaleY(1);
+      visibility:visible;
+      height:initial;
+      display:table;
+  
+}
+/* --------- Hover Effect End-----------*/
+		</style>
+	</head>
+<body>
+<!----------------Navigation Bar Start----------------->
+	<div class="main_nav">
+		<div class="logo">
+			<i class="fas fa-microscope"></i>
+		</div>
+	<nav class="nav">
+		<ul class="main_menu">
+			<li class="F_li"><a class="a_main_menu"href="" >HOME</a></li>
+			<li class="F_li subject"><a class="a_main_menu " href="" >SUBJECTS</a>
+		<menu class="sub_menu">
+				<ul class="sub_menu_ul">
+					<li><a class="a_sub_menu" href="" >Physics</a></li>
+					<li><a class="a_sub_menu" href="" >Chemistry</a></li>
+					<li><a class="a_sub_menu" href="" >Biology</a></li>
+					<li><a class="a_sub_menu" href="" >Mathematics</a></li>
+					<li><a class="a_sub_menu" href="" >Geography</a></li>
+					<li><a class="a_sub_menu" href="" >Psychology</a></li>
+				</ul>
+		</menu>
+			</li>
+			<li class="F_li"><a class="a_main_menu" href="" >BOOKS</a>
+		<menu class="sub_menu">
+				<ul class="sub_menu_ul">
+					<li><a class="a_sub_menu" href="" >PDF</a></li>
+					<li><a class="a_sub_menu" href="" >EPUB</a></li>
+					<li><a class="a_sub_menu" href="" >MOB</a></li>
+					<li><a class="a_sub_menu" href="" >TXT</a></li>
+					<li><a class="a_sub_menu" href="" >DOCS</a></li>
+					<li><a class="a_sub_menu" href="" >PHD</a></li>
+				</ul>
+		</menu>
+			</li>
+			<li class="F_li"><a class="a_main_menu" href="" >CONTACT</a>
+	<menu class="sub_menu">
+			<ul class="sub_menu_ul">
+				<li><a class="a_sub_menu" href="" >Authority </a></li>
+				<li><a class="a_sub_menu" href="" >Controller </a></li>
+				<li><a class="a_sub_menu" href="" >Programmers </a></li>
+				<li><a class="a_sub_menu" href="" >Developers </a></li>
+			</ul>
+	</menu>
+			</li>
+			<li class="F_li"><a class="a_main_menu" href="" >ABOUT</a>
+	<menu class="sub_menu">
+			<ul class="sub_menu_ul">
+				<li><a class="a_sub_menu" href="" >US</a></li>
+				<li><a class="a_sub_menu" href="" >Olympiads</a></li>
+			</ul>
+	</menu>
+					</li>
+				</ul>
+			</nav>
+		</div>
+		
+<!----------------------Navigation Bar End--------------->		
+<script type="text/javascript">
+document.addEventListener("contextmenu",function(sahed){
+  sahed.preventDefault();
+});
+</script>
+	</body>
+</html>

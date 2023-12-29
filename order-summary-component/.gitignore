@@ -1,0 +1,7 @@
+# Avoid accidental upload of the Sketch and Figma design files
+#####################################################
+*.sketch
+*.fig
+*.xd
+.DS_Store
+.prettierignore

@@ -1,0 +1,209 @@
+
+.designe{
+     margin-top:74px;
+     width:100%;
+     height:400px;
+}
+.mas{
+     position:absolute;
+     top:290px;
+     left:42%;
+}
+.mas h3{
+     font-family:'Galada';
+     color:#000000;
+     font-size:35px;
+}
+
+/*------ Contact Form Design Start ---*/
+
+.contact_section{
+  padding-bottom:20px;
+}
+.section_heading h3{
+  line-height:130px;
+  font-family:'Galada';
+  color:#868c8d;
+  text-align:center;
+}
+.contact_form_submit{
+  margin-top:25px;
+  margin-right:10%;
+  padding:10px 40px!important;
+  float: right;
+  background:#08e339;
+  color:#343d34;
+  border:2px solid green;
+  border-radius:5px;
+}
+.text_label,.email_label{
+  margin-top:10px;
+  font-family:'Galada';
+  color:#3b4345;
+}
+.form-group small{
+  padding-top:5px;
+  padding-left:20px;
+  
+}
+/*---- JavaScript validation class----*/
+
+form i{
+  position:absolute;
+  visibility:hidden;
+}
+form .fn{
+  top:2%;
+  left:43%;
+}
+form .ln{
+  top:2%;
+  right:5%;
+}
+.form-group{
+  position:relative;
+}
+.form-group .em{
+  top:53px;
+  right:2%;
+  color:red;
+}
+/*--- email error massage css start----*/
+.email_class.wrong #email{
+  border: 3px solid #ff3f00c1;
+  box-shadow:2px 1px 8px #ff3f00c1;
+  
+}
+.email_class.wrong .fa-info-circle{
+  visibility:visible !important;
+  color:#ff2e00d8;
+  
+}
+.email_class span{
+  display:none;
+}
+.email_class.wrong .alt_text{
+  margin:5px 7px;
+  color:#ff2e00d8;
+  font-size:12px;
+  font-weight:bold;
+  display:block !important;
+  
+}
+/*--- email error massage css end----*/
+/*--- first and last name error massage css start----*/
+.alt_txt_box{
+  position:relative;
+  margin-bottom:15px;
+}
+.alt_txt_box span{
+  position:absolute;
+  margin:5px 7px;
+  color:#ff2e00d8;
+  font-size:12px;
+  font-weight:bold;
+  display:none;
+  
+}
+/*** first name wrong ---*/
+/*-- for validation you need to add only one .fname_wrong , .lname_wrong  or all_wrong class in parent div---*/
+.name_field.fname_wrong .form-row .col #fname{
+  border: 3px solid #ff3f00c1;
+  box-shadow:2px 1px 8px #ff3f00c1;
+}
+.name_field.fname_wrong .fn.fa-info-circle{
+  visibility:visible !important;
+  color:#ff2e00d8;
+}
+.name_field.fname_wrong .alt_txt_box .alt_txt_fname{
+  display:block !important;
+}
+/*--- last name wrong---*/
+.name_field.lname_wrong .form-row .col #lname{
+  border: 3px solid #ff3f00c1;
+  box-shadow:2px 1px 8px #ff3f00c1;
+}
+.name_field.lname_wrong .ln.fa-info-circle{
+  visibility:visible !important;
+  color:#ff2e00d8;
+}
+.name_field.lname_wrong .alt_txt_box .alt_txt_lname{
+  display:block !important;
+}
+/*-+- first and last name wrong---*/
+
+.name_field.all_wrong .form-row .col input{
+  border: 3px solid #ff3f00c1;
+  box-shadow:2px 1px 8px #ff3f00c1;
+}
+.name_field.all_wrong .fa-info-circle{
+  visibility:visible !important;
+  color:#ff2e00d8;
+}
+.name_field.all_wrong .alt_txt_box .alt_txt_all{
+  display:block !important;
+}
+
+/*--- first and last name error massage css end----*/
+/*----- Success massage css----*/
+
+.name_field.fname_success .form-row .col #fname{
+  border: 3px solid #00ca01f5;
+  box-shadow:2px 1px 8px #00ca01f5;
+  
+}
+.name_field.fname_success .fn.fa-check-circle{
+  visibility:visible !important;
+  color:#00ca01f5;
+}
+/*--- last name wrong---*/
+.name_field.lname_success .form-row .col #lname{
+  border: 3px solid #00ca01f5;
+  box-shadow:2px 1px 8px #00ca01f5;
+}
+.name_field.lname_success .ln.fa-check-circle{
+  visibility:visible !important;
+  color:#00ca01f5;
+}
+/*-+- first and last name wrong---*/
+
+.name_field.all_success .form-row .col input{
+  border: 3px solid #00ca01f5;
+  box-shadow:2px 1px 8px #00ca01f5;
+}
+.name_field.all_success .fa-check-circle{
+  visibility:visible !important;
+  color:#00ca01f5;
+}
+/*---+ for mail----*/
+.email_class.success #email{
+  border: 3px solid #00ca01f5;
+  box-shadow:2px 1px 8px #00ca01f5;
+  
+}
+.email_class.success .fa-check-circle{
+  visibility:visible !important;
+  color:#00ca01f5;
+  
+}
+/*--- textarea error massage---*/
+form .massage_alt{
+  display:none;
+}
+.textarea.error .massage_alt{
+  margin:10px 15px;
+  font-size:12px;
+  font-weight:bold;
+  color:red;
+  display:block !important;
+}
+form .textarea.error #textarea{
+  border:3px solid #ff3f00c1;
+  box-shadow:2px 1px 8px #ff3f00c1;
+}
+form #textarea.success{
+  border:3px solid #00ca01f5;
+  box-shadow:2px 1px 8px #00ca01f5;
+}
+
+/*------ Contact Form Design End -------*/

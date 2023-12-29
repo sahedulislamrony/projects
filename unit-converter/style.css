@@ -1,0 +1,88 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html{
+  font-size:62.5%;
+  font-family: 'PT Serif', serif;
+  /* 1 rem =>  10 px */
+}
+.main{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#014b5d;
+}
+.child {
+  width:80%;
+  background:#ebeced;
+  border-radius:.7rem;
+}
+
+h2{
+  color:#000;
+  text-align:center;
+  padding:2rem;
+  font-size:3rem;
+}
+
+.form{
+  width:100%;
+  padding-top:1.5rem;
+  display:grid;
+  place-items:center;
+  
+}
+input{
+  width:30rem;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  border:1px solid blue;
+  border-radius:1.2rem;
+  padding-left:1rem;
+  font-family: 'PT Serif', serif;
+  outline:none;
+}
+input:focus{
+  border:1px solid #00ccff;
+  outline:none;
+}
+#select{
+  margin-left:1.2rem;
+  padding:.5rem 1.2rem;
+  font-family: 'PT Serif', serif;
+  border-radius:1.2rem;
+  background:#20c9f4;
+}
+.box{
+  display:flex;
+  flex-direction:row ;
+}
+.btn{
+  padding:.5rem 1.2rem;
+  border-radius: .5rem;
+  border:1px solid black;
+  font-family: 'PT Serif', serif;
+  display:block;
+  margin:auto;
+}
+.btn:focus{
+  border:1px solid black;
+}
+ .result{
+  width:100%;
+  text-align:center;
+  font-family: 'PT Serif', serif;
+  font-size:3rem;
+  padding:2rem;
+ }
+
+@media (max-width:700px){
+  html{
+    font-size:32%;
+  }
+}

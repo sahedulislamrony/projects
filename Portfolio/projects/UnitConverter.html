@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=7,8,edge" />
+      <meta http-equiv="refresh" content="text/html;charset=UTF-8" />
+  <meta name="theme-color" content="#014b5d" />
+  <meta name="description" content="Unit Converter . Convert Temperature units easley">
+   <title>Unit Converter | By Sahedul Islam . </title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,700&display=swap" rel="stylesheet">
+  <style type="text/css" media="all">
+    
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+html{
+  font-size:62.5%;
+  font-family: 'PT Serif', serif;
+  /* 1 rem =>  10 px */
+}
+.main{
+  width:100vw;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background:#014b5d;
+}
+.child {
+  width:80%;
+  background:#ebeced;
+  border-radius:.7rem;
+}
+
+h2{
+  color:#000;
+  text-align:center;
+  padding:2rem;
+  font-size:3rem;
+}
+
+.form{
+  width:100%;
+  padding-top:1.5rem;
+  display:grid;
+  place-items:center;
+  
+}
+input{
+  width:30rem;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  border:1px solid blue;
+  border-radius:1.2rem;
+  padding-left:1rem;
+  font-family: 'PT Serif', serif;
+}
+input:focus{
+  border:1px solid blue;
+}
+#select{
+  margin-left:1.2rem;
+  padding:.5rem 1.2rem;
+  font-family: 'PT Serif', serif;
+  border-radius:1.2rem;
+  background:#20c9f4;
+}
+.box{
+  display:flex;
+  flex-direction:row ;
+}
+.btn{
+  padding:.5rem 1.2rem;
+  border-radius: .5rem;
+  border:1px solid black;
+  font-family: 'PT Serif', serif;
+  display:block;
+  margin:auto;
+}
+.btn:focus{
+  border:1px solid black;
+}
+ .result{
+  width:100%;
+  text-align:center;
+  font-family: 'PT Serif', serif;
+  font-size:3rem;
+  padding:2rem;
+ }
+
+@media (max-width:700px){
+  html{
+    font-size:32%;
+  }
+ 
+}
+  </style>
+</head>
+<body>
+  <div class="main">
+    <div class="child">
+       <h2>Convert Your Unit</h2>
+      <div class="form">
+      
+      
+     <div class="sub_child">
+    <div class="box">
+        <input type="number" name="input" id="num" value="" placeholder="Enter Your Unit..." />
+        
+       
+        <select name="" id="select">
+         
+         
+          <option value="0" selected> Select Unit</option>
+          <option value="1">°Celsius</option>
+          <option value="2">°Fahrenheit</option>
+          
+        </select></div>
+        <br/>
+        <br/>
+        <br/>
+      
+        <button class="btn" >See Result</button>
+        
+        
+        </div>
+        <div class="result">
+          
+        </div>
+      </div>
+    </div>
+  </div>
+   <script type="text/javascript">
+     //Get target
+const inp = document.querySelector("#num");
+const select = document.querySelector("#select");
+const btn = document.querySelector(".btn");
+const result = document.querySelector(".result");
+
+//main function
+const convert_main = ()=> {
+  const inpVal = document.querySelector("#num").value;
+  
+         
+    const celTofahr = ()=> {
+          const fahr = ((inpVal*9)/5)+32 ;
+          result.innerHTML=`${inpVal}°C is equal to ${fahr}°F`;
+        };
+      
+  const fahrToCel = ()=> {
+        const Cel = ((inpVal-32)/9)*5;
+        result.innerHTML = `${inpVal}°F is equal to ${Cel}°C`;
+      };
+
+ 
+  if(inpVal != "" )
+  {
+    
+     const Temp = select.value;
+     if (Temp == 1){
+       celTofahr();
+     }else if (Temp == 2){
+       fahrToCel();
+     }else {
+       result.innerHTML = "<font style ='color:red'>Please Select An Unit</font>";
+     }
+    
+  } else {
+    result.innerHTML="<font style ='color:red'>Please input some value</font>";
+  }
+ 
+};
+
+btn.addEventListener("click",convert_main);
+   </script>
+</body>
+</html>

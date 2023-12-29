@@ -1,0 +1,138 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+font-family: 'Young Serif', serif;
+}
+body {
+width: 100vw;
+height: 100vh;
+}
+#top {
+width: 100%;
+height: auto;
+background-color:#07161b;
+border-bottom:2px solid #00ccff;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+#top p {
+padding:40px 0;
+font-family: 'Young Serif', serif;
+font-size: 2rem;
+color:#00ccff;
+}
+#main {
+width: 100%;
+height: auto;
+margin: auto;
+padding: auto;
+padding-top:20px;
+background-image: linear-gradient(to bottom, #07161b, #133d4c, #186a83, #1599bf, #00ccff);
+  
+}
+#main #projects {
+width: 100%;
+height: auto;
+padding: 0 10px;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+transition: all 0.2 linear;
+}
+#main #projects .items {
+flex-basis:300px;
+height: 350px;
+margin: 20px;
+border-radius: 8px;
+overflow: hidden;
+border: 1px solid #3fd6ffc1;
+background:#fff;
+transition: transform .8s;
+}
+#main #projects .items:hover {
+transform: scale(1.03);
+box-shadow: 1px 1px 10px #fff;
+}
+#main #projects .items .media {
+width: 100%;
+height: 65%;
+background: transparent ;
+}
+#main #projects .items .media .img{
+  width:100%;
+  height:100%;
+  border-radius:0 0 0 50%;
+  overflow:hidden;
+  border-left:2px solid #16bdf5;
+  border-bottom:2px solid #16bdf5;
+}
+#main #projects .items .media .img img {
+  width:100%;
+  height:100%;
+}
+#main #projects .items .txt{
+width: 100%;
+height: 35%;
+position:relative;
+}
+#main #projects .items .txt h4{
+  padding-left:20px;
+  padding-top:8px;
+  color:#171717;
+  text-transform: capitalize;
+}
+
+#main #projects .items .txt p{
+  margin:3px 20px;
+  color:#535353;
+  font-size:13px;
+  font-style: italic;
+}
+#main #projects .items .links{
+  width:100%;
+  padding-top:0;
+  padding-bottom:10px;
+  position: absolute;
+  bottom:0;
+  left:0;
+}
+#main #projects .items .links a{
+text-decoration: none;
+padding: 8px 30px;
+text-align: center;
+text-transform:capitalize;
+transition: 0.5s;
+background-size: 200% auto;
+border-radius: 20px;
+display: block;
+border:1px solid #22caf5fb;
+color:#000;
+transition: all 0.5s;
+}
+
+#main #projects .items .links a:hover {
+outline: none;
+}
+#main #projects .items .links .code{
+  
+}
+#main #projects .items .links .live{
+}
+
+.code:hover,.live:hover {
+  background-color:#00c5e6;
+  border-color:#000;
+}
+.center {
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+#bottom {
+width: 100%;
+height: 100px;
+background: black;
+}

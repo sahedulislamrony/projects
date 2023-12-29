@@ -1,0 +1,126 @@
+.mainHeader
+{
+  max-width:1200px;
+}
+.mainHeader .headerBg {
+  width:100%;
+  height:60rem;
+}
+.mainHeader .headerBg img {
+  width:100%;
+  height:100%;
+  opacity:1;
+}
+
+#navBar {
+  width:100%;
+  position:absolute;
+  top:0;
+  background: transparent;
+  z-index:9999;
+  display:grid;
+  grid-template-rows: 10rem;
+  grid-template-columns: 40rem 80rem ;
+}
+.logo{
+  display:flex;
+  grid-column:1/2;
+  justify-content: center;
+  align-items:center;
+  
+}
+.links {
+  grid-columm:2/-1;
+}
+.logo span {
+  font-size:4rem;
+  font-family: 'Lobster', cursive;
+}
+.logo  span:first-child{
+  padding-right:1.8rem;
+  color:var(--black);
+}
+
+.links > ul {
+  height:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items:center;
+  webkit-flex-direction: row;
+  list-style-type:none;
+}
+.links > ul li{
+  transition: all .5s;
+  padding:1.5rem;
+  font-size:2.5rem;
+  border-radius:.4rem;
+  text-align: center;
+ 
+}
+.links > ul li a{
+  font-family:var(--fReg);
+  transition:all .5s;
+  color:#242a2b;
+  text-decoration:none;
+  background: transparent;
+  }
+
+/* Add Hire Me */
+.links > ul  li:last-child {
+   flex:3;
+}
+.links > ul  li:last-child a#hireBtn span {
+  color:var(--scol);
+}
+.links > ul  li:last-child a {
+   border:.15rem solid var(--scol);
+   border-radius:5rem;
+   background-image: linear-gradient(-40deg,var(--scol) 50%,var(--black) 50%);
+   word-spacing:2.5rem;
+   color:var(--black);
+   padding:1rem 4rem;
+   text-transform: capitalize;
+   font-family:var(--fReg);
+   font-weight:bold;
+   font-style:italic;
+   display:inline-block;
+   animation-name:hireMeBtn; 
+   animation-duration: 1.5s;
+   animation-iteration-count: infinite;
+   animation-delay:2s;
+   animation-timing-function: linear;
+   transform-origin:center;
+   }
+   
+/* Hover Effects */  
+.links > ul li:hover a {
+   color:var(--scol);
+   background:transparent;
+}
+
+
+/* Additional Designe For Page Navigation */
+
+body > section#pageWrapper > a.scroll {
+  position:fixed;
+  bottom:2.5rem;
+  right:2rem;
+  width:10rem;
+  height:10rem;
+  display:grid;
+  place-items:center;
+  background:#f1f1f11a;
+  border-radius:50%;
+  text-decoration:none;
+  z-index:99999;
+  opacity:0;
+}
+body > section#pageWrapper > a.scroll i{
+  font-size:7rem;
+  font-weight:900;
+  color:#00ccffa4;
+}
+body > section#pageWrapper > span#bottom {
+  visibility:hidden;
+}

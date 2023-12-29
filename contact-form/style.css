@@ -1,0 +1,161 @@
+ 
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif&display=swap');
+
+ * {
+   margin:0;
+   padding:0;
+   box-sizing: border-box;
+ }
+ html {
+   font-size:62.5%;
+ }
+ .main {
+   width:100vw;
+   height:100vh;
+   display:grid;
+   place-items: center;
+   background:hsl(223, 47%, 23%);
+ }
+  .form {
+  display:grid;
+  place-items: center;
+  width:54rem;
+  background:#fff;
+  border-radius:2rem;
+}
+  .form > form.mainForm{ 
+  width:95%;
+  height:100%;
+  padding:1.5rem 0;
+}
+input , textarea {
+  border:1.5px solid #00303c;
+  border-radius:1rem;
+  font-family:'PT Serif', serif;
+  font-size:2.5rem;
+  padding-left:1rem;
+  outline:none;
+}
+input:focus ,textarea:focus {
+  outline:none;
+  border-color:#00ccff;
+  box-shadow:1px 1px 10px 1px #00ccff;
+}
+
+ form.mainForm .nameGroup , form.mainForm .emailGroup , form.mainForm .textareaGroup {
+  width:100%;
+  padding:0 2rem;
+}
+input[id="fname"] , input[id="lname"] , input[id="email"]{
+  width:100%;
+  height:5rem;
+  margin-top:.5rem;
+}
+textarea {
+  width:100%;
+  height:25rem;
+  margin-top:.5rem;
+  padding-top:1rem;
+  padding-left:1rem;
+}
+label {
+  font-family:'Galada', cursive;
+  font-size:3rem;
+  color:hsl(223, 47%, 23%);
+}
+#nameErr , #emailErr , #textareaErr {
+  width:100%;
+  padding:1.5rem;
+  font-family:'PT Serif', serif;
+  font-size:2rem;
+  font-style: italic;
+  font-weight: bold ;
+  padding-left:.5rem;
+  color:#ff004c;
+  display:block;
+}
+button[type='submit'] {
+  width:7rem;
+  height:7rem;
+  border-radius:50%;
+  display:grid;
+  place-items: center;
+  margin-top:1.5rem;
+  background: transparent;
+  border:1px solid #ff5c00;
+}
+button[type='submit'] i {
+  font-size:4rem;
+  color:#ff5c00;
+}
+button[type='submit']:hover {
+  background:#ff5c00;
+}
+button[type='submit']:hover  .fa-paper-plane {
+  color:#fff
+}
+  .fnameDiv ,  .lnameDiv  , .textareaGroup{
+  position: relative;
+ }
+ form.mainForm .nameGroup  i  {
+   font-size:2.5rem;
+   position:absolute;
+   bottom:1.3rem;
+   right:1.5rem;
+ }
+ form.mainForm .emailGroup  .wrapper  {
+   width:100%;
+   position: relative;
+ }
+ form.mainForm .emailGroup .wrapper  i  {
+   font-size:2.5rem;
+   position:absolute;
+   bottom:1.3rem;
+   right:1.5rem;
+ }
+ 
+ form.mainForm i.fa-check-circle {
+   color:#03ca3d;
+ }
+ form.mainForm i.fa-times-circle {
+   color:#ff4c00
+ }
+ /* Success Design */
+ form.mainForm .nameGroup .fnameDiv.success input {
+   border-color:#03ca3d;
+  }
+ form.mainForm .nameGroup .lnameDiv.success input {
+   border-color:#03ca3d;
+  }
+ form.mainForm  .emailGroup.success input {
+   border-color:#03ca3d;
+  }
+ form.mainForm  .textareaGroup.success textarea{
+   border-color:#03ca3d;
+  }
+ 
+ /* Error Design */
+ form.mainForm .error input:focus , form.mainForm .error textarea:focus {
+   border-color:#ff4c00;
+   box-shadow:1px 1px 10px 1px #ff4c00;
+ } 
+ form.mainForm .nameGroup .fnameDiv.error input {
+   border-color:#ff4c00;
+ }
+ form.mainForm .nameGroup .lnameDiv.error input {
+   border-color:#ff4c00;
+ }
+ form.mainForm .emailGroup.error input {
+   border-color:#ff4c00;
+ }
+ form.mainForm .textareaGroup.error textarea {
+   border-color:#ff4c00;
+ }
+ button:disabled {
+   border-color:#333;
+   pointer-events: none;
+ }
+ button:disabled i {
+   color:#333;
+ }

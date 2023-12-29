@@ -1,0 +1,380 @@
+
+/*-------- Service Section Design CSS Start-----*/
+.section_heading {
+  text-align: center;
+}
+.service_box{
+  border-radius:10px;
+  height:345px;
+  margin-top:20px !important;
+  background:#f2f2f2c6;
+  transition:1s;
+}
+.service_box:hover{
+  transform:translateY(-20px);
+  background:#3f4648;
+  color:#e8eaeb;
+}
+.service_box:hover .s_icon{
+  color:#1cfd1f;
+}
+.service_box:hover .s_text span a {
+  background:#c6cacb;
+  color:#021f26f0;
+}
+.service_box:hover .text{
+  color:#fffa8b;
+}
+.s_heading,.s_icon{
+  text-align: center;
+}
+.s_icon{
+  font-size:45px;
+  color:#01f701;
+  padding-top:10px;
+}
+.s_heading span{
+  font-size:20px;
+  padding-bottom:6px;
+}
+.s_heading{
+  padding: 10px 0 10px 0;
+ 
+}
+.s_text{
+  padding-left:20px;
+  padding-bottom:5px;
+}
+.my_box{
+  padding:18px;
+}
+.s_text span a{
+  padding:5px;
+  border-radius:5px;
+  background:#1c2021;
+  color:#eff0f1;
+  text-decoration:none;
+  position:absolute;
+  bottom:8px;
+}
+h3.section_heading{
+  padding:16px;
+  font-size:30px;
+  font-family:'Galada', cursive;
+}
+h3.section_heading span span{
+  color:#1cfd2b;
+}
+h3.section_heading span{
+  padding:10px;
+  border-bottom:3px solid #8ecf00;
+  
+}
+.second_service_row{
+  margin-top:15px;
+}
+/*-------- Service Section Design CSS End ----*/
+
+/*------- Skills Section Design CSS Start-----*/
+.my_skill_section{
+  background:#f6f8f9;
+}
+.my_skill_section p{
+  color:#6c0800;
+}
+.Skill_section_heading{
+  text-align: center;
+  font-weight:bold;
+  font-family:'Galada',cursive;
+  line-height:150px;
+  position: relative;
+}
+.skill_box_wrapper{
+  border-radius:10px;
+  position:relative;
+  height:370px;
+  margin-bottom:15px;
+  padding-top:10px;
+  background:#fafeff;
+  transition:1s;
+}
+.skill_box_wrapper:hover{
+  box-shadow: -8px 7px 8px  #dfe0e1f0 , 8px -7px 10px #ecf2f3;
+  transform:scale(1.03);
+}
+
+
+.Skill_section_heading span span{
+  color:#a14300;
+}
+.Skill_section_heading span{
+  border-bottom:3px solid #a14300;
+}
+.s_box_icon{
+  text-align:center;
+  font-size:50px;
+  padding:5px;
+}
+.s_box_heading{
+  text-align:center;
+  font-weight:bold;
+  padding-bottom:4px;
+}
+.s_box_text{
+  color:#05ca8b;
+  padding-left:20px;
+  padding-right:5px;
+}
+.skill_box_wrapper span a{
+  background:#ffa95a;
+  color: white;
+  padding:7px 16px;
+  border-radius:5px;
+  position:absolute;
+  bottom:10px;
+  left:20px;
+  text-decoration:none;
+}
+.skill_box_wrapper .s_box_icon i {
+  color:#a14300;
+}
+/*---- Skills Section Design CSS End---*/
+
+/*----- Progress Bar Design Start ------*/
+.progress_section_heading{
+     font-family:'Galada',cursive;
+     text-align:center;
+     padding:30px 0px;
+}
+.progress_section_heading h3{
+  color:#000080;
+}
+.my_progress_box{
+  margin-top:15px;
+}
+.my_progress{
+  margin-left:15px;
+}
+.my_progress i{
+  font-size:25px;
+  color:#973700e4;
+}
+.my_progress span{
+  margin-left:8px;
+  font-weight:bold;
+}
+.progress_container{
+  margin-bottom:15px;
+}
+/*--- Progress color----*/
+.html{background:#c2d900;}
+.css{background:#05f222;}
+.js{background:#cb7d04;}
+.bootstrap{background:#5904cb;}
+.php{background:#06abc9;}
+.jQuery{background:#ff8e00;}
+.python{background:#bcff29;}
+.WordPress {background:#cd7001;}
+/*----- Progress Bar Design Start ------*/
+
+/*------ Contact Form Design Start ---*/
+
+.contact_section{
+  background:url(../img/9.jpg);
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  padding-bottom:20px;
+}
+.section_heading h3{
+  line-height:130px;
+  font-family:'Galada';
+  color:#e18600;
+}
+.contact_me .form-control{
+  background:#eff0f0ba;
+}
+.contact_me .form-control:focus{
+  background:#eff0f0ba;
+}
+.contact_form_submit{
+  margin-top:25px;
+  margin-right:10%;
+  padding:10px 40px!important;
+  float: right;
+  background:#ce8203d2;
+  color:#ffffff;
+  border:2px solid #ce8203d2;
+  border-radius:5px;
+}
+.text_label,.email_label{
+  margin-top:10px;
+  font-family:'Galada';
+  color:#ce8203d2;
+}
+.form-group small{
+  padding-top:5px;
+  padding-left:20px;
+  
+}
+/*---- JavaScript validation class----*/
+
+form i{
+  position:absolute;
+  visibility:hidden;
+}
+form .fn{
+  top:2%;
+  left:43%;
+}
+form .ln{
+  top:2%;
+  right:5%;
+}
+.form-group{
+  position:relative;
+}
+.form-group .em{
+  top:53px;
+  right:2%;
+  color:red;
+}
+/*--- email error massage css start----*/
+.email_class.wrong #email{
+  border: 3px solid #ff3f00c1;
+  box-shadow:2px 1px 8px #ff3f00c1;
+  
+}
+.email_class.wrong .fa-info-circle{
+  visibility:visible !important;
+  color:#ff2e00d8;
+  
+}
+.email_class span{
+  display:none;
+}
+.email_class.wrong .alt_text{
+  margin:5px 7px;
+  color:#ff2e00d8;
+  font-size:12px;
+  font-weight:bold;
+  display:block !important;
+  
+}
+/*--- email error massage css end----*/
+/*--- first and last name error massage css start----*/
+.alt_txt_box{
+  position:relative;
+  margin-bottom:15px;
+}
+.alt_txt_box span{
+  position:absolute;
+  margin:5px 7px;
+  color:#ff2e00d8;
+  font-size:12px;
+  font-weight:bold;
+  display:none;
+  
+}
+/*** first name wrong ---*/
+/*-- for validation you need to add only one .fname_wrong , .lname_wrong  or all_wrong class in parent div---*/
+.name_field.fname_wrong .form-row .col #fname{
+  border: 3px solid #ff3f00c1;
+  box-shadow:2px 1px 8px #ff3f00c1;
+}
+.name_field.fname_wrong .fn.fa-info-circle{
+  visibility:visible !important;
+  color:#ff2e00d8;
+}
+.name_field.fname_wrong .alt_txt_box .alt_txt_fname{
+  display:block !important;
+}
+/*--- last name wrong---*/
+.name_field.lname_wrong .form-row .col #lname{
+  border: 3px solid #ff3f00c1;
+  box-shadow:2px 1px 8px #ff3f00c1;
+}
+.name_field.lname_wrong .ln.fa-info-circle{
+  visibility:visible !important;
+  color:#ff2e00d8;
+}
+.name_field.lname_wrong .alt_txt_box .alt_txt_lname{
+  display:block !important;
+}
+/*-+- first and last name wrong---*/
+
+.name_field.all_wrong .form-row .col input{
+  border: 3px solid #ff3f00c1;
+  box-shadow:2px 1px 8px #ff3f00c1;
+}
+.name_field.all_wrong .fa-info-circle{
+  visibility:visible !important;
+  color:#ff2e00d8;
+}
+.name_field.all_wrong .alt_txt_box .alt_txt_all{
+  display:block !important;
+}
+
+/*--- first and last name error massage css end----*/
+/*----- Success massage css----*/
+
+.name_field.fname_success .form-row .col #fname{
+  border: 3px solid #00ca01f5;
+  box-shadow:2px 1px 8px #00ca01f5;
+  
+}
+.name_field.fname_success .fn.fa-check-circle{
+  visibility:visible !important;
+  color:#00ca01f5;
+}
+/*--- last name wrong---*/
+.name_field.lname_success .form-row .col #lname{
+  border: 3px solid #00ca01f5;
+  box-shadow:2px 1px 8px #00ca01f5;
+}
+.name_field.lname_success .ln.fa-check-circle{
+  visibility:visible !important;
+  color:#00ca01f5;
+}
+/*-+- first and last name wrong---*/
+
+.name_field.all_success .form-row .col input{
+  border: 3px solid #00ca01f5;
+  box-shadow:2px 1px 8px #00ca01f5;
+}
+.name_field.all_success .fa-check-circle{
+  visibility:visible !important;
+  color:#00ca01f5;
+}
+/*---+ for mail----*/
+.email_class.success #email{
+  border: 3px solid #00ca01f5;
+  box-shadow:2px 1px 8px #00ca01f5;
+  
+}
+.email_class.success .fa-check-circle{
+  visibility:visible !important;
+  color:#00ca01f5;
+  
+}
+/*--- textarea error massage---*/
+form .massage_alt{
+  display:none;
+}
+.textarea.error .massage_alt{
+  margin:10px 15px;
+  font-size:12px;
+  font-weight:bold;
+  color:red;
+  display:block !important;
+}
+form .textarea.error #textarea{
+  border:3px solid #ff3f00c1;
+  box-shadow:2px 1px 8px #ff3f00c1;
+}
+form #textarea.success{
+  border:3px solid #00ca01f5;
+  box-shadow:2px 1px 8px #00ca01f5;
+}
+
+/*------ Contact Form Design End -------*/

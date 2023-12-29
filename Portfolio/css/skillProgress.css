@@ -1,0 +1,164 @@
+
+section.proSec {
+  max-width:1200px;
+  background-image:url('../img/bg_10.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.proSec > h2.sectionHeading {
+  font-family:var(--fReg);
+  font-size:4rem;
+  text-align:center;
+  padding-top:3rem;
+  padding-bottom:4rem;
+  color:hsla(180,4.3%,91%,1);
+  transition:all .5s;
+}
+.proSec > h2.sectionHeading > span {
+  display:inline-block;
+  padding:1.5rem  3rem;
+  border-left:.8rem solid #00ccff;
+  transition:all .5s;
+}
+.proSec > h2.sectionHeading > span > span {
+  color:#00ccff
+}
+.proSec .mainProgDiv { 
+  height:80rem;
+  margin-top:2rem;
+  border-left:1rem solid;
+  border-bottom:1rem solid;
+  border-image: linear-gradient(to bottom left ,#00ccff,#62d1fd,#2e3233) 50;
+  border-radius:1rem;
+  width:100rem;
+  margin:auto;
+  display:grid;
+  grid-template-columns: repeat(8,5rem);
+  grid-template-rows:100%;
+  justify-content: space-around;
+  position:relative;
+}
+
+.proSec .mainProgDiv .progLine{
+  position: relative;
+}
+.proSec .mainProgDiv .progLine span {
+  position:absolute;
+  bottom:0;
+  width:100%;
+  border-top-left-radius: 5rem;
+  border-top-right-radius: 5rem;
+  display:grid;
+  place-items:center;
+  border:.3rem solid #01c7f9;
+  border-bottom:none;
+  background-image: linear-gradient(to top, #000000, #191919, #2c2c2c, #3f3f3f, #545454, #636369, #71737f, #7e8396, #7e93b3, #73a4cf, #58b8e9, #00ccff);
+  transition:all .5s;
+}
+.proSec .mainProgDiv .progLine:nth-child(1) span {
+  height:95%;
+}
+.proSec .mainProgDiv .progLine:nth-child(2) span {
+  height:90%;
+}
+.proSec .mainProgDiv .progLine:nth-child(3) span {
+  height:85%;
+}
+.proSec .mainProgDiv .progLine:nth-child(4) span {
+  height:80%;
+}
+.proSec .mainProgDiv .progLine:nth-child(5) span {
+  height:75%;
+}
+.proSec .mainProgDiv .progLine:nth-child(6) span {
+  height:70%;
+}
+.proSec .mainProgDiv .progLine:nth-child(7) span {
+  height:60%;
+}
+.proSec .mainProgDiv .progLine:nth-child(8) span {
+  height:55%;
+}
+
+/* add Before text */
+
+.proSec .mainProgDiv .progLine span::before {
+    font-family:var(--fReg);
+    font-size:3rem;
+    font-weight:bold;
+    transform-origin:left;
+    transform:rotate(-90deg) translateY(2rem);
+    -moz-transform: rotate(-90deg) translateY(2rem);
+    webkit-transform: rotate(-90deg) translateY(2rem) ;
+    color:#eff0f0;
+}
+.proSec .mainProgDiv .progLine:nth-child(1) span::before {
+  content:'Html';
+}
+.proSec .mainProgDiv .progLine:nth-child(2) span::before{
+  content:'CSS'
+}
+.proSec .mainProgDiv .progLine:nth-child(3) span::before {
+  content:' JavaScript'
+}
+.proSec .mainProgDiv .progLine:nth-child(4) span::before{
+  content:' jQuery'
+}
+.proSec .mainProgDiv .progLine:nth-child(5) span::before {
+  content:' Bootstrap'
+}
+.proSec .mainProgDiv .progLine:nth-child(6) span::before {
+  content:' WordPress'
+}
+.proSec .mainProgDiv .progLine:nth-child(7) span::before {
+  content:'Python'
+}
+.proSec .mainProgDiv .progLine:nth-child(8) span::before {
+  content:'PHP'
+}
+
+.proSec .mainProgDiv .progLine span i {
+  font-size:4.5rem;
+  position: absolute;
+  bottom:-6rem;
+  color:#0bacfc;
+}
+.proSec .mainProgDiv .progLine:last-child span i {
+  color:#00bbff;
+}
+.proSec .mainProgDiv::before {
+  content:'\f062';
+  font-family:'Font Awesome\ 5 Free';
+  font-weight:900;
+  font-size:6.7rem;
+  font-weight:bold;
+  color:hsl(192,90%,60%);
+  position: absolute;
+  top:-4rem;
+  left:-3.434rem;
+}
+.proSec .mainProgDiv::after{
+  content:'\f061';
+  font-family:'Font Awesome\ 5 Free';
+  font-weight:900;
+  font-size:6.8rem;
+  font-weight:bold;
+  color:hsl(192,90%,60%);
+  position: absolute;
+  bottom:-4.2rem;
+  right:-4rem;
+}
+
+.proSec > h2.sectionHeading:hover > span {
+  border-color:#00ff43;
+}
+.proSec > h2.sectionHeading:hover > span > span {
+  color:#00ff43
+}
+.proSec .mainProgDiv .progLine span:hover {
+  border-color:#00ff43;
+  box-shadow: .1rem -.5rem 2rem .2rem #00ff43;
+}
+.proSec .mainProgDiv .progLine span:hover i {
+  color:#00ff43;
+}

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+    <meta charset="utf-8">
+    <title>Account settings</title>
+      <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" crossorigin="anonymous">
+<style type="text/css">
+       /* bengali */
+@font-face{
+  font-family: 'Galada';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Galada Regular'), local('Galada-Regular'), url(https://fonts.gstatic.com/s/galada/v6/H4cmBXyGmcjXlUXO5yY_wrmwgp63.woff2) format('woff2');
+  unicode-range: U+0964-0965, U+0981-09FB, U+200C-200D, U+20B9, U+25CC;
+}
+  	body {
+    	  margin: 0px;
+    	  padding: 0px;
+    	  width: 100%;
+    	  font-family: sans-serif;
+	      font-size: 15px;
+	      color: #444;
+	      background:#889396;
+    	}
+
+    	main {
+    	  padding: 30px;
+    	  padding-top: 60px;
+    	  box-sizing: border-box;
+    	}
+
+    	form {
+    	  margin-bottom: 40px;
+    	}
+
+	    .auth-menu {
+	      position: fixed;
+	      left: 0;
+	      top: 0;
+	      z-index: 10001;
+	      width: 100%;
+    	  box-sizing: border-box;
+	      line-height: 40px;
+	      background-color: #444;
+	      color: #fff;
+	      font-size: 14px;
+	      padding-left: 15px;
+	      padding-right: 15px;
+	      text-align:center ;
+	    }
+
+	    .auth-menu a {
+	      color: #fff;
+	      text-decoration: none;
+	      font-weight: bold;
+	    }
+
+	    .notification {
+	      padding: 10px;
+    	  background-color: #eee;
+    	  font-weight: bold;
+    	  margin-bottom: 30px;
+	    }
+	    .wrapper {
+	      margin-top:25px;}
+	      
+	    .section_heading{
+	      text-align: center;
+	      line-height:50px;
+	      font-family:Galada;
+	      background:#e9ebeb;
+	      color:#676867;
+	      border-radius:25px 25px 5px 5px;
+	      -moz-border-radius:25px 25px 5px 5px;
+	      
+	    }
+	    label {
+	      font-size:15px;
+	      padding-left:8px;
+	      font-weight:bold;
+	      color:#1f2324ba;
+	    }
+	    .alert {
+	      text-align: center;
+	    }
+	    .first,.second{
+	      padding-top:15px;
+	    }
+	    button{
+	      position:absolute;
+	      bottom:10px;
+	      right:25px;
+	    }
+	    .card{
+	      background:#f6f6f6c9;
+	      padding:20px;
+	      height:405px;
+	      margin-top:8px;
+	      border-radius:10px;
+	    }
+	    h4{
+	      color:#414141;
+	      padding-bottom:10px;
+	    }
+	    .e{
+	      bottom:5px !important;
+	    }
+</style>
+</head>
+<body>
+
+<nav class="auth-menu">
+    স্বাগতম {{ User Name  }}!  আপনি লগইন অবস্থায় আছেন &nbsp;|&nbsp;
+    <a href="http://localhost:8080/index.php/logout">লগআউট করুন →</a>
+</nav>
+<div class="container-flude">
+
+<main role="main" class="wrapper">
+	
+<h1 class="section_heading">একাউন্ট সেটিং</h1>
+
+<div class="container">
+  <div class="row first">
+
+<div class="col-md-6">
+      <div class="card">
+    
+<form method="POST" action="http://localhost:8080/index.php/account" accept-charset="UTF-8">
+  
+  <div class="form-group">
+    
+	<input type="hidden" name="csrf_test_name" value="{{ csrf token }}">	
+	
+	<p>
+		<label>নাম</label>
+		<input class="form-control" required="" type="text" name="name" value="{{ User Name  }}">
+	</p>
+	<p>
+		<label>ই-মেইল ঠিকানা</label>
+		<input class="form-control" disabled="" type="text" value="{{ email address }}">
+	</p>
+	    <p>
+        <button class="btn btn-outline-secondary" type="submit">আপডেট</button>
+    </p>
+    </div>
+</form>
+</div>
+</div>
+
+<!-- CHANGE EMAIL -->
+
+<div class="col-md-6 main">
+  <div class="card">
+    
+  <h4>ই-মেইল ঠিকানা পরিবর্তন</h4>
+
+      <p class="alert alert-warning">এটি পরিবর্তন করলে নতুন ঠিকানায় একটি ই-মেইল পাঠনো হবে । ইমেইল টি নিশ্চিত করুন ।</p>
+
+
+<form method="POST" action="http://localhost:8080/index.php/change-email" accept-charset="UTF-8" onsubmit="changeEmail.disabled = true; return true;">
+    <div class="form-group">
+
+	<input type="hidden" name="csrf_test_name" value="{{ csrf token }}">	
+	<p>
+		<label>নতুন ই-মেইল ঠিকানা</label>
+		<input class="form-control" required="" type="email" name="new_email" value="">
+	</p>
+	<p>
+		<label>বর্তমান পাসওয়ার্ড</label>
+		<input class="form-control" required="" type="password" name="password" value="">
+	</p>
+    <p>
+        <button class="btn e btn-outline-secondary" name="changeEmail" type="submit">আপডেট</button>
+    </p>
+    </div>
+    
+</form>
+</div>
+</div>
+</div>
+
+
+
+  <div class="row second">
+<!-- CHANGE PASSWORD -->
+<div class="col-md-6">
+      <div class="card">
+    
+<h4>পাসওয়ার্ড পরিবর্তন</h4>
+
+<form method="POST" action="http://localhost:8080/index.php/change-password" accept-charset="UTF-8" onsubmit="changePassword.disabled = true; return true;">
+    <div class="form-group">
+
+	<input type="hidden" name="csrf_test_name" value="{{ csrf token }}">	
+	<p>
+		<label>বর্তমান পাসওয়ার্ড</label>
+		<input class="form-control" required="" type="password" minlength="5" name="password" value="">
+	</p>
+	<p>
+		<label>নতুন পাসওয়ার্ড</label>
+		<input class="form-control" required="" type="password" minlength="5" name="new_password" value="">
+	</p>
+	<p>
+		<label>পুনরায় নতুন পাসওয়ার্ড</label>
+		<input class="form-control"required="" type="password" minlength="5" name="new_password_confirm" value="">
+	</p>
+    <p>
+        <button class="btn btn-outline-secondary" name="changePassword" type="submit">আপডেট</button>
+    </p>
+    </div>
+</form>
+
+</div>
+</div>
+
+
+<!-- DELETE ACCOUNT -->
+<div class="col-md-6">
+      <div class="card">
+    
+<h4>অ্যাকাউন্ট মুছে ফেলুন</h4>
+
+<form method="POST" action="http://localhost:8080/index.php/delete-account" accept-charset="UTF-8">
+  <div class="form-group">
+    
+    <input type="hidden" name="csrf_test_name" value="{{ csrf token }}">  
+    <p class="alert alert-danger">সাবধান, এই প্রক্রিয়াটি প্রত্যাবর্তন যোগ্য নয়!</p>
+	<p>
+		<label>বর্তমান পাসওয়ার্ড</label>
+		<input class="form-control"required="" type="password" name="password" value="">
+	</p>
+	<p>
+		<button class="btn btn-outline-danger"type="submit" onclick="return confirm('আপনি কি নিশ্চিত ?')">অ্যাকাউন্ট মুছে ফেলুন</button>
+	</p>
+	</div>
+</form>
+</div>
+</div>
+
+</div>
+</div>
+</main>
+</div>
+
+
+<!-- jQuery and JS bundle w/ Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"crossorigin="anonymous"></script>
+</body>
+</html>

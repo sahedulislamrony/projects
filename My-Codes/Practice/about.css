@@ -1,0 +1,15 @@
+/*------- Iframe section ----*/
+.iframe_section{
+  margin-top:74px;
+}
+.iframe{
+  width:100%;
+  height:1100px;
+  overflow-x:none;
+}
+.my-content{
+  padding:70px 10px;
+  background:#f4f5f5;
+  color:#cf6000;
+  font-family:Times New Roman;
+}
