@@ -26,8 +26,8 @@ This is a card styling challenge given by frontendmentor . I'm Sahedul Islam , c
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/sahedulislamrony/order-summary-component)
-- Live Site URL: [Live Preview](https://sahedulislamrony.github.io/order-summary-component)
+- Solution URL: [GitHub Repository](https://github.com/sahedulislamrony/projects/order-summary-component)
+- Live Site URL: [Live Preview](https://sahedulislamrony.github.io/projects/order-summary-component)
 
 ## My process
 I create a main div inside body tag . then I take a child div and named it card.
@@ -65,11 +65,10 @@ I use only Grid Template for placing items on right places .
  
 ## Author 
 
-- Website : [Sahedul Islam Rony](http://www.sahed.cf)
-- Frontend Mentor : [@Sahed33-m](https://www.frontendmentor.io/profile/Sahed33-m)
-- Twitter : [@i_am_Sahed](https://www.twitter.com/i_am_Sahed)
-- Facebook : [Sahedul33](https://www.facebook.com/Sahedul33)
-- Email : [Email](mailto:sahedulislamofficial@gmail.com?subject=Order-Summery-Card-Review)
+- LinkedIn : [@sahedulislamrony](https://www.linkedin.com/in/sahedulislamrony)
+- Twitter : [@i_am_Sahed](https://www.twitter.com/i_am_sahed)
+- Facebook : [@sahedulislamFB](https://www.facebook.com/sahedulislamFB)
+- Email : [sahed.cse.just@gmail.com](mailto:sahed.cse.just@gmail.com?subject=Order-Summery-Card-Review)
 
 ## Important
 
