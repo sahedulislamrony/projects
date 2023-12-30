@@ -8,8 +8,12 @@
   overflow-x:none;
 }
 .my-content{
-  padding:70px 10px;
+  text-align: center;
+  font-size:25px;
+  padding:50px 10px;
   background:#f4f5f5;
+  font-weight:bold;
+  font-style:italic;
   color:#cf6000;
   font-family:Times New Roman;
 }

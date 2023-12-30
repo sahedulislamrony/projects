@@ -1,8 +1,11 @@
-# Archive Website 
-Simple home page UI for pdf archive website (Incomplete). 🎉🎁
+# Details 
 
-# Live Preview
-- [Click Here](http://sahedulislamrony.github.io/projects/pdf-house)
+These projects are done for a science group named Tachyon.
+Here a group of nice people trying to make a science minded society and make them thoughtful.
+The intention of these people is admirable . 
+
+- FB Group : [Tachyon](https://facebook.com/groups/tachyonts/)
+- Website : [Tachyonts.com](https://tachyonts.com/)
 
 
 # Author
@@ -19,4 +22,3 @@ Simple home page UI for pdf archive website (Incomplete). 🎉🎁
 
 
 ###### Last Update: December 30,2023
-

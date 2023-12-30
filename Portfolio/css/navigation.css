@@ -85,12 +85,15 @@
    font-weight:bold;
    font-style:italic;
    display:inline-block;
+   /*
    animation-name:hireMeBtn; 
    animation-duration: 1.5s;
    animation-iteration-count: infinite;
    animation-delay:2s;
    animation-timing-function: linear;
    transform-origin:center;
+   
+   */
    }
    
 /* Hover Effects */  

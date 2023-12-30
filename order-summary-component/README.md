@@ -63,14 +63,25 @@ I use only Grid Template for placing items on right places .
 ### What I learned
  There are many things I learned by doing this project. It was very interesting project . The first thing I learned that, how to use colors properly . I use CSS Grid for styling .
  
-## Author 
 
-- LinkedIn : [@sahedulislamrony](https://www.linkedin.com/in/sahedulislamrony)
-- Twitter : [@i_am_Sahed](https://www.twitter.com/i_am_sahed)
-- Facebook : [@sahedulislamFB](https://www.facebook.com/sahedulislamFB)
-- Email : [sahed.cse.just@gmail.com](mailto:sahed.cse.just@gmail.com?subject=Order-Summery-Card-Review)
+# Author
+### Sahedul Islam Rony
+- Programmer, Passionate Web Developer.
+- CSE undergraduate at Jashore University of Science and Technology,[JUST](https://just.edu.bd) 🎓
+
+
+# Find me on: 👇
+
+#### LinkedIn: [@sahedulislamrony](https://www.linkedin.com/in/sahedulislamrony)
+#### Twitter: [@i_am_sahed](https://www.twitter.com/i_am_Sahed)
+#### Email: [sahed.cse.just@gmail.com](mailto:sahed.cse.just@gmail.com)
+
+
 
 ## Important
 
 Having any issues when browsing ?  Feel free to knowing me about your problem (s) .
 If you have a suggestion for me , please mail me without any delay ! I'm waiting for your valuable words!
+
+
+###### Last Update: December 30,2023

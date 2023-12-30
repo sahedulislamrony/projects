@@ -3,10 +3,17 @@ Celsius to Fahrenheit . Temperature converter .
 
 # [Live Preview](https://sahedulislamrony.github.io/projects/temperature-converter)
 
-# 💥 Find Me On 
- ### - [LinkedIn](https://www.linkedin.com/in/sahedulislamrony)
- ### - [Hacker Rank](https://www.hackerrank.com/profile/sahedulislamrony)
- ### - [Twitter](https://x.com/i_am_sahed)
- ### - [Codeforce](https://codeforces.com/profile/sahedulislamrony)
- ### - [Facebook](https://fb.me/sahedulislamFB)
- 
+# Author
+### Sahedul Islam Rony
+- Programmer, Passionate Web Developer.
+- CSE undergraduate at Jashore University of Science and Technology,[JUST](https://just.edu.bd) 🎓
+
+
+# Find me on: 👇
+
+#### LinkedIn: [@sahedulislamrony](https://www.linkedin.com/in/sahedulislamrony)
+#### Twitter: [@i_am_sahed](https://www.twitter.com/i_am_Sahed)
+#### Email: [sahed.cse.just@gmail.com](mailto:sahed.cse.just@gmail.com)
+
+
+###### Last Update: December 30,2023

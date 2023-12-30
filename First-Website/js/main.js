@@ -120,8 +120,8 @@ const twitter = document.querySelector('.link_box > a#twitter') ;
 const linkedIn = document.querySelector('.link_box > a#lIn') ;
 const email= document.querySelector('.link_box > a#email') ;
 
-facebook.href = "https://www.facebook.com/Sahedul33 " ;
+facebook.href = "https://www.facebook.com/sahedulislamFB" ;
 instagram.href = " http://www.instagram.com/i.am.sahed" ;
-twitter.href = " http://www.twitter.com/i_am_Sahed" ;
-linkedIn.href = " " ;
-email.href = "mailto: sahedulislamofficial@gmail.com " ;
+twitter.href = " http://www.twitter.com/i_am_sahed" ;
+linkedIn.href = " https://www.linkedin.com/in/sahedulislamrony" ;
+email.href = "mailto:sahed.cse.just@gmail.com " ;

@@ -1,6 +1,6 @@
 document.addEventListener('contextmenu', (e) => e.preventDefault());
 const hire = document.querySelector("ul li #hireBtn");
-hire.href = 'mailto:sahedulislamofficial@gmail.com';
+hire.href = 'mailto:sahed.cse.just@gmail.com';
 hire.target = '_blank'; // initial target
 
 // Scrolling Effect Start 
