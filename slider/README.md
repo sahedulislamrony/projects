@@ -1,7 +1,7 @@
 # Slider
 Simple Slider . Created for practice purpose . Focused on functionality not design.
 
-# Live Preview :[Link](http://sahedulislamrony.github.io/projects/slider)
+# See Live [Here](http://sahedulislamrony.github.io/projects/slider)
 
 
 # Author
@@ -12,9 +12,9 @@ Simple Slider . Created for practice purpose . Focused on functionality not desi
 
 # Find me on: 👇
 
-#### LinkedIn: [@sahedulislamrony](https://www.linkedin.com/in/sahedulislamrony)
-#### Twitter: [@i_am_sahed](https://www.twitter.com/i_am_Sahed)
-#### Email: [sahed.cse.just@gmail.com](mailto:sahed.cse.just@gmail.com)
+- ***LinkedIn:*** [@sahedulislamrony](https://www.linkedin.com/in/sahedulislamrony)
+- ***Twitter:*** [@i_am_sahed](https://www.twitter.com/i_am_Sahed)
+- ***Email:*** [sahed.cse.just@gmail.com](mailto:sahed.cse.just@gmail.com)
 
 
 ###### Last Update: December 30,2023

@@ -1,9 +1,13 @@
-# Here some of my past works
+# Others 
+<br/>
+# Live Site
+- **1** : [Calculator](https://sahedulislamrony.github.io/projects/others/calculator.html)
+- **2** : [National Flag](https://sahedulislamrony.github.io/projects/others/national_flag.html)
+- **3** : [Navigation Bar](https://sahedulislamrony.github.io/projects/others/navbar.html)
 
-# See Live [Here](https://sahedulislamrony.github.io/projects)
+<br/>
 
 # Author
-<br/>
 ### Sahedul Islam Rony
 - Programmer, Passionate Web Developer.
 - CSE undergraduate at Jashore University of Science and Technology,[JUST](https://just.edu.bd) 🎓

@@ -72,9 +72,9 @@ I use only Grid Template for placing items on right places .
 
 # Find me on: 👇
 
-#### LinkedIn: [@sahedulislamrony](https://www.linkedin.com/in/sahedulislamrony)
-#### Twitter: [@i_am_sahed](https://www.twitter.com/i_am_Sahed)
-#### Email: [sahed.cse.just@gmail.com](mailto:sahed.cse.just@gmail.com)
+- ***LinkedIn:*** [@sahedulislamrony](https://www.linkedin.com/in/sahedulislamrony)
+- ***Twitter:*** [@i_am_sahed](https://www.twitter.com/i_am_Sahed)
+- ***Email:*** [sahed.cse.just@gmail.com](mailto:sahed.cse.just@gmail.com)
 
 
 

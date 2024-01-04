@@ -24,7 +24,7 @@
   </div>
   <div  class="intro animate__animated">
     <center><i class="fas fa-heart"></i></center>
-    <p>It's 2020</p>
+    <p>It's <span class="old">2020</span></p>
      <h3>
        Dear  <?php 
             
@@ -61,7 +61,7 @@
  <i class="fas fa-heart"></i>
  </span>
  </center>
-   <p>Welcome To <span id="year">2021</span></p>
+   <p>Welcome To <span id="year" class="new">2021</span></p>
     <p>
     <span>Happy</span>
     <span>New</span>
