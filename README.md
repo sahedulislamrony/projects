@@ -1,9 +1,8 @@
 # Here some of my past works
 
-# See Live [Here](https://sahedulislamrony.github.io/projects)
+## See Live [Here](https://sahedulislamrony.github.io/projects)
 
 # Author
-<br/>
 
 ###  Sahedul Islam Rony
 
