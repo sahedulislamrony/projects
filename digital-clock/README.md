@@ -1,4 +1,4 @@
-# Digital_Clock
+# Digital Clock
 
 ## See Live [Here](https://sahedulislamrony.github.io/projects/digital-clock)
 
