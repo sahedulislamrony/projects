@@ -26,7 +26,7 @@ This is a card styling challenge given by frontendmentor . I'm Sahedul Islam , c
 
 ### Links
 
-- Solution URL: [GitHub Repository](https://github.com/sahedulislamrony/projects/order-summary-component)
+- Solution URL: [GitHub Repository](https://github.com/sahedulislamrony/projects/tree/main/order-summary-component)
 - Live Site URL: [Live Preview](https://sahedulislamrony.github.io/projects/order-summary-component)
 
 ## My process
