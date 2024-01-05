@@ -1,6 +1,6 @@
 # Digital_Clock
 
-### [Live](https://sahedulislamrony.github.io/projects/digital-clock)
+## See Live [Here](https://sahedulislamrony.github.io/projects/digital-clock)
 
 # Author
 ### Sahedul Islam Rony
