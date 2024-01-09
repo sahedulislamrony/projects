@@ -26,3 +26,6 @@
 
 
 ###### Last Update: January 09,2024
+<br/>
+
+> ⚠️ You may encounter some responsiveness issues on the web page because all the code here was written using a mobile device.
