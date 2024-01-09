@@ -112,6 +112,7 @@ h1 {
   padding-left:30px;
   font-weight: bold;
   text-transform: capitalize;
+  font-size:10px;
 }
 .questionsIn form {
   padding-left:20px;
@@ -183,5 +184,10 @@ input.wrong:focus {
    .questions div.options ul {
      flex-direction:column;
    }
-   
+   .questions .responseTxt , .questionsIn .responseTxt {
+     font-size:18px;
+   }
+   .questionsIn h3 , .questions h3 {
+     font-size:15px;
+   }
  }

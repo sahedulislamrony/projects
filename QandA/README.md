@@ -1,6 +1,9 @@
-# Here some of my past works
+# Q & A Webpage 
+This project is a part of **CS50x**'s problem set 8 , **[Trivia]**(https://cs50.harvard.edu/x/2024/psets/8/trivia/) .
 
-## See Live [Here](https://sahedulislamrony.github.io/projects)
+> Focused on functionality not design!
+
+# See Live [Here](http://sahedulislamrony.github.io/projects/QandA)
 
 
 # Author
@@ -25,4 +28,4 @@
 
 
 
-###### Last Update: January 09,2024
+###### Last Update: January 08,2024

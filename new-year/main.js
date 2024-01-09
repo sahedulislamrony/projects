@@ -9,7 +9,7 @@ let old = document.querySelector(".intro .old");
 let newY = document.querySelector(".main .new");
 
 let date  = new Date();
-let year = date.getUTCFullYear();
+let year = date.getFullYear();
 old.innerHTML = year-1;
 newY.innerHTML = year;
 select.addEventListener("click", function (){
