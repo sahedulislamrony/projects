@@ -1,5 +1,7 @@
 # Slider
-Simple Slider . Created for practice purpose . Focused on functionality not design.
+Simple Slider . Created for practice purpose.
+
+> **Focused on functionality not design.**
 
 # See Live [Here](http://sahedulislamrony.github.io/projects/slider)
 
