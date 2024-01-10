@@ -26,6 +26,7 @@ padding:40px 0;
 font-family: 'Young Serif', serif;
 font-size: 2rem;
 color:#00ccff;
+text-transform: capitalize;
 }
 #main {
 width: 100%;
