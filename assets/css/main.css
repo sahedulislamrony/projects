@@ -4,6 +4,10 @@ padding: 0;
 box-sizing: border-box;
 font-family: 'Young Serif', serif;
 }
+::selection {
+  color:#fff;
+  background-color:#000;
+}
 body {
 width: 100vw;
 height: 100vh;
