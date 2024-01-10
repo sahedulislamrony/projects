@@ -1,4 +1,4 @@
-# Here some of my past works
+# Here some of my previous works
 
 ## See Live [Here](https://sahedulislamrony.github.io/projects)
 
