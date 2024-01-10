@@ -1,5 +1,5 @@
 # Q & A Webpage 
-This project is a part of **CS50x**'s problem set 8 , **[Trivia]**(https://cs50.harvard.edu/x/2024/psets/8/trivia/) .
+This project is a part of **CS50x**'s problem set 8 , [**Trivia**](https://cs50.harvard.edu/x/2024/psets/8/trivia/) .
 
 > Focused on functionality not design!
 
