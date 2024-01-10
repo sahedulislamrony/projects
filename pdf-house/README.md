@@ -14,16 +14,16 @@ Simple home page UI for pdf archive website (Incomplete). 🎉🎁
 
 
 # Find me on: 👇
-> #### [LinkedIn](https://www.linkedin.com/in/sahedulislamrony)
-> 
-> #### [Twitter](https://www.twitter.com/i_am_Sahed)
-> 
-> #### [Facebook](https://www.fb.me/sahedulislamFB)
->
->  #### [GitHub](https://github.com/sahedulislamrony)
->
-> #### [sahed.cse.just@gmail.com](mailto:sahed.cse.just@gmail.com)
 
+> [**LinkedIn**](https://www.linkedin.com/in/sahedulislamrony)
+> 
+> [**Twitter**](https://www.twitter.com/i_am_Sahed)
+> 
+>  [**Facebook**](https://www.fb.me/sahedulislamFB)
+>
+>  [**GitHub**](https://github.com/sahedulislamrony)
+>
+>  [**sahed.cse.just@gmail.com**](mailto:sahed.cse.just@gmail.com)
 
 
 

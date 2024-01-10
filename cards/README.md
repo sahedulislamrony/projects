@@ -1,10 +1,6 @@
-# Details 
+# CSS Cards 
 
-These projects were done for a science group named Tachyon.
-Here a group of nice people trying to make a science minded society and make them thoughtful.
-The intention of these people is admirable . 
-
-# See Live [Here](https://sahedulislamrony.github.io/projects/login-form)
+## See Live [Here](https://sahedulislamrony.github.io/cards)
 
 
 # Author
@@ -14,8 +10,8 @@ The intention of these people is admirable .
 
 
 
-# Find me on: 👇
 
+# Find me on: 👇
 > [**LinkedIn**](https://www.linkedin.com/in/sahedulislamrony)
 > 
 > [**Twitter**](https://www.twitter.com/i_am_Sahed)
@@ -28,4 +24,5 @@ The intention of these people is admirable .
 
 
 
-###### Last Update: January 04,2024
+
+###### Last Update: January 10,2024
