@@ -1,6 +1,9 @@
 # Here some of my previous works
 
-## See Live [Here](https://sahedulislamrony.github.io/projects)
+## Firebase App: [view](https://practice-projects-1.web.app)
+
+## GitHub Page: [view](https://sahedulislamrony.github.io/projects)
+
 
 
 # Author
