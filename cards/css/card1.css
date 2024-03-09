@@ -49,7 +49,7 @@
    height:205px;
    display:grid;
    place-items: center;
-   overflow:scroll;
+   overflow:hidden;
    
  }
   #card1 .card .text p{
