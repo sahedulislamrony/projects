@@ -1,241 +1,244 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: 'Young Serif', serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Young Serif", serif;
 }
 ::selection {
-  color:#fff;
-  background-color:#000;
+  color: #fff;
+  background-color: #000;
 }
 body {
-width: 100vw;
-height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 a {
   text-decoration: none;
-  outline:none;
+  outline: none;
 }
 #top {
-width: 100%;
-height: auto;
-background-color:#07161b;
-border-bottom:2px solid #00ccff;
-display: flex;
-justify-content: center;
-align-items: center;
+  width: 100%;
+  height: auto;
+  background-color: #07161b;
+  border-bottom: 2px solid #00ccff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 #top p {
-padding:40px 0;
-font-family: 'Young Serif', serif;
-font-size: 2rem;
-color:#00ccff;
-text-transform: capitalize;
+  padding: 40px 0;
+  font-family: "Young Serif", serif;
+  font-size: 2rem;
+  color: #00ccff;
+  text-transform: capitalize;
 }
 #main {
-width: 100%;
-height: auto;
-margin: auto;
-padding: auto;
-padding-top:20px;
-background-image: linear-gradient(to bottom, #07161b, #133d4c, #186a83, #1599bf, #00ccff);
-  
+  width: 100%;
+  height: auto;
+  margin: auto;
+  padding: auto;
+  padding-top: 20px;
+  background-image: linear-gradient(
+    to bottom,
+    #07161b,
+    #133d4c,
+    #186a83,
+    #1599bf,
+    #00ccff
+  );
 }
 #main #projects {
-width: 100%;
-height: auto;
-padding: 0 10px;
-display: flex;
-justify-content: space-around;
-flex-wrap: wrap;
-transition: all 0.2 linear;
+  width: 100%;
+  height: auto;
+  padding: 0 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  transition: all 0.2 linear;
 }
 #main #projects .items {
-flex-basis:300px;
-height: 350px;
-margin: 20px;
-border-radius: 8px;
-overflow: hidden;
-border: 1px solid #3fd6ffc1;
-background:#fff;
-transition: transform .8s;
+  flex-basis: 300px;
+  height: 350px;
+  margin: 20px;
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid #3fd6ffc1;
+  background: #fff;
+  transition: transform 0.2s;
 }
 #main #projects .items:hover {
-transform: scale(1.03);
-box-shadow: 1px 1px 10px #fff;
+  transform: scale(1.03);
+  box-shadow: 1px 1px 10px #fff;
 }
 #main #projects .items .media {
-width: 100%;
-height: 65%;
-background: transparent ;
+  width: 100%;
+  height: 65%;
+  background: transparent;
 }
-#main #projects .items .media .img{
-  width:100%;
-  height:100%;
-  border-radius:0 0 0 50%;
-  overflow:hidden;
-  border-left:2px solid #16bdf5;
-  border-bottom:2px solid #16bdf5;
+#main #projects .items .media .img {
+  width: 100%;
+  height: 100%;
+  border-radius: 0 0 0 50%;
+  overflow: hidden;
+  border-left: 2px solid #16bdf5;
+  border-bottom: 2px solid #16bdf5;
 }
 #main #projects .items .media .img img {
-  width:100%;
-  height:100%;
+  width: 100%;
+  height: 100%;
 }
-#main #projects .items .txt{
-width: 100%;
-height: 35%;
-position:relative;
+#main #projects .items .txt {
+  width: 100%;
+  height: 35%;
+  position: relative;
 }
-#main #projects .items .txt h4{
-  padding-left:20px;
-  padding-top:18px;
-  color:#171717;
+#main #projects .items .txt h4 {
+  padding-left: 20px;
+  padding-top: 18px;
+  color: #171717;
   text-transform: capitalize;
 }
 
-#main #projects .items .txt p{
-  margin:3px 20px;
-  color:#535353;
-  font-size:13px;
+#main #projects .items .txt p {
+  margin: 3px 20px;
+  color: #535353;
+  font-size: 13px;
   font-style: italic;
 }
-#main #projects .items .links{
-  width:100%;
-  padding-top:0;
-  padding-bottom:10px;
+#main #projects .items .links {
+  width: 100%;
+  padding-top: 0;
+  padding-bottom: 10px;
   position: absolute;
-  bottom:0;
-  left:0;
+  bottom: 0;
+  left: 0;
 }
-#main #projects .items .links a{
-text-decoration: none;
-padding: 8px 30px;
-text-align: center;
-text-transform:capitalize;
-transition: 0.5s;
-background-size: 200% auto;
-border-radius: 20px;
-display: block;
-border:1px solid #22caf5fb;
-color:#000;
-transition: all 0.5s;
+#main #projects .items .links a {
+  text-decoration: none;
+  padding: 8px 30px;
+  text-align: center;
+  text-transform: capitalize;
+  transition: 0.2s;
+  background-size: 200% auto;
+  border-radius: 20px;
+  display: block;
+  border: 1px solid #22caf5fb;
+  color: #000;
+  transition: all 0.2s;
 }
 
 #main #projects .items .links a:hover {
-outline: none;
+  outline: none;
 }
-#main #projects .items .links .code{
-  
+#main #projects .items .links .code {
 }
-#main #projects .items .links .live{
+#main #projects .items .links .live {
 }
 
-.code:hover,.live:hover {
-  background-color:#00c5e6;
-  border-color:#000;
+.code:hover,
+.live:hover {
+  background-color: #00c5e6;
+  border-color: #000;
 }
 .center {
-display: flex;
-flex-direction: row;
-justify-content: space-around;
-align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
 }
-
 
 #bottom {
-width: 100%;
-height:auto;
-background: #07161b;
-color:#00ccff;
+  width: 100%;
+  height: auto;
+  background: #07161b;
+  color: #00ccff;
 }
 #bottom .linkBox {
-  width:100%;
-  padding-top:20px;
-  display:grid;
+  width: 100%;
+  padding-top: 20px;
+  display: grid;
   place-items: center;
 }
 #bottom .linkBox .icon {
-  width:300px;
-  padding-top:10px;
-  display:flex;
+  width: 300px;
+  padding-top: 10px;
+  display: flex;
   flex-direction: row;
-  justify-content:space-around;
+  justify-content: space-around;
   align-items: center;
 }
-#bottom .linkBox .icon  .link{
-  width:50px;
-  height:50px;
-  border-radius:50%;
-  border:1px solid #00ccff;
-  display:grid;
+#bottom .linkBox .icon .link {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid #00ccff;
+  display: grid;
   place-items: center;
   background: transparent;
-  overflow:hidden;
-  transition:all .2s;
-  z-index:5;
-  transform-origin:center;
+  overflow: hidden;
+  transition: all 0.2s;
+  z-index: 5;
+  transform-origin: center;
 }
-#bottom .linkBox .icon  .link a{
-  width:100%;
-  height:100%;
-  display:grid;
+#bottom .linkBox .icon .link a {
+  width: 100%;
+  height: 100%;
+  display: grid;
   place-items: center;
 }
-#bottom .linkBox .icon  .link a i{
-  font-size:25px;
-  color:#fff;
+#bottom .linkBox .icon .link a i {
+  font-size: 25px;
+  color: #fff;
 }
-#bottom .linkBox .icon  .link:hover {
-   box-shadow:0px 0px  3px .2px #00ccff inset ,
-               0px 0px 6px 2px #00ccff;
-   transform: translate(0,-12px);
+#bottom .linkBox .icon .link:hover {
+  box-shadow: 0px 0px 3px 0.2px #00ccff inset, 0px 0px 6px 2px #00ccff;
+  transform: translate(0, -12px);
 }
-#bottom .linkBox .icon  .link  .lin{
-   color:#0077b5;
+#bottom .linkBox .icon .link .lin {
+  color: #0077b5;
 }
-#bottom .linkBox .icon  .link  .tw {
-  color:#fff;
+#bottom .linkBox .icon .link .tw {
+  color: #fff;
 }
-#bottom .linkBox .icon  .link  .github {
-  color:#fff;
-  font-size:25px;
+#bottom .linkBox .icon .link .github {
+  color: #fff;
+  font-size: 25px;
 }
-#bottom .linkBox .icon  .link  .email {
-  color:#fff;
+#bottom .linkBox .icon .link .email {
+  color: #fff;
 }
-#bottom .linkBox .icon  .link .fb {
-  color:#04b4ff;
+#bottom .linkBox .icon .link .fb {
+  color: #04b4ff;
 }
 
 #bottom .text {
-  width:100%;
+  width: 100%;
   text-align: center;
-  padding-top:10px;
-  padding-bottom:20px;
-  padding-left:10px;
-  padding-right:10px;
-  
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+
   text-transform: capitalize;
 }
-#bottom .text i{
-  font-size:20px;
+#bottom .text i {
+  font-size: 20px;
 }
 #bottom .text .year {
-  padding-right:8px;
-  color:#fff;
-  font-size:20px;
+  padding-right: 8px;
+  color: #fff;
+  font-size: 20px;
 }
 
- @media (max-width: 576px) { 
-   #bottom .linkBox .icon {
-     width:250px;
-   }
-   #bottom .linkBox .icon  .link {
-     width:40px;
-     height:40px;
-   }
-   #bottom .linkBox .icon  .link a i{
-     font-size:20px;
-   }
- }
- 
+@media (max-width: 576px) {
+  #bottom .linkBox .icon {
+    width: 250px;
+  }
+  #bottom .linkBox .icon .link {
+    width: 40px;
+    height: 40px;
+  }
+  #bottom .linkBox .icon .link a i {
+    font-size: 20px;
+  }
+}
